@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    /*outline: 1px solid red;*/
+}
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center; /* main axis */
+    align-items: center;  /* cross axis */
+    height: 100vh; /* senza altezza NON viene centrato verticalmente !!!! */
+    overflow: hidden;
+    /*background-image: linear-gradient(90deg, red, blue);
+      il background degrada dal rosso al blu da top a bottom (verticalmente)
+      Se inserisco anche i gradi es. 90deg viene impostato da sinistra a destra orizzontale */
+    background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+    margin: 0;
+}
+
+.search {
+    position: relative;
+    height: 50px;
+}
+
+.search input {
+    background-color: #fff;
+    border: 0;
+    font-size: 18px;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    transition: width 0.3s ease; 
+}
+
+.btn {
+    background-color: #fff;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    /* va a coprire la search */
+    top: 0;
+    left: 0;
+    /* stesse misure */
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    /* anche questo si muove */
+    transition: trasform 0.3s ease;
+}
+
+.btn:focus,
+input:focus {
+    outline: none;
+}
+
+.search.active input {
+    width: 200px;
+}
+
+.search.active .btn {
+    transform: translateX(198px);
+}
