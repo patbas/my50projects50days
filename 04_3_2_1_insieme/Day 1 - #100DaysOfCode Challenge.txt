@@ -1,0 +1,141 @@
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+---------------------------------------------------------------- 
+16/01/2021
+Day 6  - #100DaysOfCode Challenge 
+I just wanted to repeat 5 already-done projects  #50projects50days 
+but I spent hours on the first one!
+I don't know what happens! 
+----------------------------------------------------------------
+16/01/2021
+Day 5  - #100DaysOfCode Challenge 
+My presentation website with Vanilla JS Smooth Scrolling
+I'm happy with what I code. Faccina abbagliata dal successo 
+77-78-79/129 of Modern HTML & CSS From The Beginning (Including Sass) by 
+@traversymedia
+
+----------------------------------------------------------------
+15/01/2021
+Day 4 - #100DaysOfCode Challenge 
+CSS
+Also Today animation with Keyframes,
+transitions and transform Faccina che sorride a bocca aperta e suda freddo
+----------------------------------------------------------------
+14/01/2021
+Day 3 - #100DaysOfCode Challenge 
+More CSS
+Finished box shadows,
+text shadows,
+css variables,
+animation with Keyframes
+
+#FrontEnd #DEVCommunity
+----------------------------------------------------------------
+13/01/2021
+Day 2 - #100DaysOfCode Challenge 
+Continued with CSS
+Targeted selectors,
+Nth child,
+before and after and started box shadows 
+
+#FrontEnd #DEVCommunity
+----------------------------------------------------------------
+12/01/2021
+Finished the website "EdgeLedger" of Modern HTML & CSS From The Beginning (Including Sass) by 
+@traversymedia
+ 
+on #udemy 
+So, Day 1 - #100DaysOfCode Challenge 
+I'm trying it again! Wish me strength!
+----------------------------------------------------------------
+
+
+12/01/2021
+Finished the website "EdgeLedger" of Modern HTML & CSS From The Beginning (Including Sass) by @traversymedia 
+on #udemy 
+So, Day 1 - #100DaysOfCode Challenge 
+I'm trying it again! Wish me strength!
+#FrontEnd #DEVCommunity 
+
+
+Finished the website "EdgeLedger" of Modern HTML & CSS From The Beginning (Including Sass) by Brad Traversy
+on #Udemy. Quite a lot of know-how also from that.
+
+Re-learn #HTML5 from scratch
+I am so grateful to everyone who has contributed to the freeCodeCamp community.
+
+
+Day 5 - #100DaysOfCode Challenge 
+Learnt about Git and GitHub in this tutorial:
+https://www.youtube.com/watch?v=RGOj5yH7evk&t=523s
+
+
+Day 4 - #100DaysOfCode Challenge 
+
+Finished The EdgeLegder Homepage
+Next 57/129 of Modern HTML & CSS From The Beginning (Including Sass) by Brad Traversy
+
+
+Day 3 - #100DaysOfCode Challenge 
+
+Worked on css and flex 
+Next 55/129 of Modern HTML & CSS From The Beginning (Including Sass) by Brad Traversy
+
+Day 2 - #100DaysOfCode Challenge 
+
+Worked on css and flex 
+add css variables, img overlay
+Next 54/129 of Modern HTML & CSS From The Beginning (Including Sass) by Brad Traversy
+
+Day 1 - #100DaysOfCode Challenge 
+
+ Learning HTML, CSS and JavaScript  by coding along with 
+@florinpop1705
+ and really enjoying it.
+
+ So yesterday I learnt about the all the basics of Html for about half an hour
+
+ I am now super motivated to dive into PHP to fully understand my library app project. This is why I am now taking the 
+@Codecademy
+ PHP course. 
+I decide to start the #100DaysOfCode challenge right now!
+
+### Day 0: February 30, 2016 (Example 2)
+##### (delete me or comment me out)
+
+**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+
+**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+
+**Link(s) to work**: [Calculator App](http://www.example.com)
+
+
+### Day 1: June 27, Monday
+
+**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
+
+**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+
+**Link(s) to work**
+1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
+2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+
+worked on css and flex.
+ should finish Modern HTML & CSS From The Beginning (Including Sass) by Brad Traversy. Now I'm here 51/129
+
+
+
+
