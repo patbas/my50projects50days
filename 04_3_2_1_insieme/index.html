@@ -9,24 +9,57 @@
 </head>
 <body>
     <div class="container">
-       <div class="panel">
-           <h3>photo 1</h3>
-       </div>
-       <div class="panel">
-           <h3>photo 2</h3>
-       </div>
-       <div class="panel">
-            <h3>photo 3</h3>
-       </div>
-       <div class="panel">
-           <h3>photo 4</h3>
-       </div>
-       <div class="panel">
-           <h3>photo 5</h3>
-       </div>
-       <div class="panel">
-            <h3>photo 6</h3>
-       </div>
+        <div class="cerchio-container">
+            <div class="cerchio">
+                <button id="close"><i class="fas fa-times"></i></button>
+                <button id="open"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="panel-container">
+                <div class="panel attivo" id="primo">
+                <h3>Photo 1</h3>
+                </div>
+                <div class="panel" id="secondo">
+                    <h3>Photo 2</h3>
+                </div>
+                <div class="panel" id="terzo">
+                    <h3>Photo 3</h3>
+                </div>
+                <div class="panel" id="quarto">
+                    <h3>Photo 4</h3>
+                </div>
+                <div class="panel" id="quinto">
+                    <h3>Photo 5</h3>
+                </div>
+            </div>
+            <div class="progress">
+                <div class="progress-container">
+                    <div class="progressBar" id="progressBar"></div>
+                    <div class="circle active" disabled>1</div>
+                    <div class="circle">2</div>
+                    <div class="circle">3</div>
+                    <div class="circle">4</div>
+                    <div class="circle">5</div>
+                </div>
+                
+            </div>
+            <div class="button-container">
+                <button class="btn" id="prev" disabled>Previous</button>
+                <button class="btn" id="next">Next</button>
+            </div>
+        </div>        
+    </div>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envelope"></i>contact</li>
+        </ul>
+    </nav>
+    <div class="search">
+        <input type="text" placeholder="Search">
+        <button class="bottone"><i class="fas fa-search"></i></button>
     </div>
     <script src="script.js"></script>
 </body>

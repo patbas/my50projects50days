@@ -9,12 +9,37 @@
 ----------------------------------------------------------------
 ----------------------------------------------------------------
 ----------------------------------------------------------------
+24/01/2020
+Day 13  - #100DaysOfCode Challenge 
+Completed Hidden Search Widget [Project 4]
+
+#50projects50days
 ----------------------------------------------------------------
+23/01/2020
+Day 12  - #100DaysOfCode Challenge 
+Expanding Cards and Progress Steps together
+@media query + Rotating Navigation 
+
+#50projects50days
 ----------------------------------------------------------------
+21-22/01/2021
+Day 10-11  - #100DaysOfCode Challenge 
+Expanding Cards and Progress Steps together
+Rotating Navigation almost ready
+#50projects50days
 ----------------------------------------------------------------
+19-20/01/2021
+Day 8-9  - #100DaysOfCode Challenge 
+Still the first projects
+I have to keep them in mind
+#50projects50days
 ----------------------------------------------------------------
+18/01/2021
+Day 7  - #100DaysOfCode Challenge 
+Obviously my css was wrong! Faccina che sorride a bocca aperta e suda freddo
+#50projects50days
 ---------------------------------------------------------------- 
-16/01/2021
+17/01/2021
 Day 6  - #100DaysOfCode Challenge 
 I just wanted to repeat 5 already-done projects  #50projects50days 
 but I spent hours on the first one!
@@ -100,42 +125,12 @@ Worked on css and flex
 add css variables, img overlay
 Next 54/129 of Modern HTML & CSS From The Beginning (Including Sass) by Brad Traversy
 
-Day 1 - #100DaysOfCode Challenge 
+Day 1 - #100DaysOfCode Challenge
 
- Learning HTML, CSS and JavaScript  by coding along with 
-@florinpop1705
- and really enjoying it.
+Worked on css and flex
+Now I'm here 51/129 of Modern HTML & CSS From The Beginning (Including Sass) by Brad Traversy
 
- So yesterday I learnt about the all the basics of Html for about half an hour
-
- I am now super motivated to dive into PHP to fully understand my library app project. This is why I am now taking the 
-@Codecademy
- PHP course. 
-I decide to start the #100DaysOfCode challenge right now!
-
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
-
-worked on css and flex.
- should finish Modern HTML & CSS From The Beginning (Including Sass) by Brad Traversy. Now I'm here 51/129
-
-
-
-
+16/12/2020
+I'm publicly committing to the 100DaysOfCode Challenge starting today! Learn More and Join me! hey 
+@ka11away
+https://100DaysOfCode.com #100DaysOfCode
