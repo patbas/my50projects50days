@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --left-bg-color: rgba(87, 84,236, 0.3);
+    --right-bg-color: rgba(43, 43, 43, 0.3);
+    --left-btn-hover-color: rgba(75, 218, 210, 0.397);
+    --right-btn-hover-color: rgba(28, 122, 28, 0.8);
+    --hover-width: 75%;
+    --other-width: 25%;
+    --speed: 1000ms;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   height: 100vh;
+   overflow: hidden;
+   margin: 0; 
+}
+
+h1 {
+    font-size: 4rem;
+    color: #fff;
+    position: absolute;
+    /* It's going to be position absolute on its in whatever side here and we want each one to be in the middle. */
+    left: 50%;
+    top: 20%;
+    /* Now if I do that, it's going to put the beginning of the h1 right in the middle, Non è quello che volgio.
+    I want the middle of the h1 in the middle of the side.Per farlo uso trasform on translateX */
+    transform: translateX(-50%);
+    /* Non voglio che vadano on the next side, e ci fossero più parole nel titolo: I don't want it to wrap */
+    white-space: nowrap;
+}
+
+.btn {
+    position: absolute;
+    /* i's going to position the absolute within its container within its side */
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 0.2rem;
+    font-size: 1rem;
+    width: 15rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.split.left .btn:hover {
+    background-color: var(--left-btn-hover-color);
+}
+
+.split.right .btn:hover {
+    background-color: var(--right-btn-hover-color);
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #333;
+}
+
+.split {
+    position: absolute; /* with the container */
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.split.left {
+    left: 0;
+    background: url('https://images.unsplash.com/photo-1539348756845-4ad95810b90a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1275&q=80');
+    background-position: cover; /* si vede tutta */
+    background-repeat: no-repeat;
+}
+
+/* think as a ghost element we'are going to place over the left*/
+.split.left::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--left-bg-color);
+}
+
+.split.right {
+    right: 0;
+    background: url('https://images.unsplash.com/photo-1599725055007-b33b6755ef6f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1487&q=80');
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.split.right::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--right-bg-color);
+}
+
+/** OVERLAY = SOVRAPPOSIZIONE **/
+
+ .hover-left .left { 
+    /* quando è attivo hover-left a sinistra si aumenta la larghezza */
+    width: var(--hover-width) ;
+ }
+
+ .hover-left .right { 
+    /* quando è attivo hover-left a destra  si diminuisce la larghezza */
+    width: var(--other-width);
+ }
+
+ .hover-right .left { 
+    /* quando è attivo hover-right a sinistra si diminuisce la larghezza */
+    width: var(--other-width) ;
+ }
+
+ .hover-right .right { 
+    /* quando è attivo hover-right a destra  si aumenta la larghezza */
+    width: var(--hover-width);
+ }
+
+ .split.right,
+ .split.left,
+ .split.left::before,
+ .split.right::before {
+     transition: all var(--speed) ease-in-out;
+     /* questo fa in modo che avvenga tipo uno scivolamento verso destra o verso sinistra */
+ }
+
+ @media(max-width: 666px) {
+     h1 {
+         font-size: 2rem;
+         top: 30%;
+     }
+
+     .btn {
+         padding: 1.2rem;
+         width: 12rem;
+     }
+ }
