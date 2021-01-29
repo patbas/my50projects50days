@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #efedd6;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.box {
+    background-color: steelblue;
+    color: #fff;
+    display: flex; /* per sistemare il titolo h2 all'interno */
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    margin: 10px; /* per distanziarli */
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.3);
+              /*    offset blur            alpha values */
+    /* for the animation we're going to use the transform property
+       with translate x because that's what we want to do is move these
+       along the axis */
+    /* transform: translateX(0px); non si muove !!! ovviamente!!!!
+    transform: translateX(100px);  si muove 100px a destra!!!! 
+    transform: translateX(200%); si muove a destra ma è ancora visibile */
+    transform: translateX(400%); /* in questo modo è fuori dalla schermo (anche i wide screen) e non è quindi visibile*/
+    /* durata */
+    transition: transform 0.4s ease;
+}
+
+.box:nth-last-of-type(even) {
+    transform: translateX(-400%); /* i box dispari li nascondo a sinistra */
+}
+
+/* Attenzione se mettevo la proprietà .box:nth-last-of-type(even) dopo a .box.show 
+il primo box a cui ho messo la classe show comunque non si sarebbe visto
+perchè la proprietà di nascondere i dispari avrebbe "sovrascritto" quella di 
+mostrare la classe show !!!!!!! */
+
+.box.show {
+    transform: translateX(0); /* torna alla posizione originaria */   
+}
+
+.box h2 {
+    font-size: 45px;
+}
