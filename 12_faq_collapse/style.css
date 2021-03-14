@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Muli', sans-serif;
+   background-color: #f0f0f00;
+}
+
+h1 {
+   margin: 50px 0 30px;
+   text-align: center;
+}
+
+.faq-container {
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+.faq {
+   background-color: transparent;
+   /* tutti hanno lo sfondo trasparente
+      solo quello attivo ha lo sfondo bianco */
+   border: 1px solid #9fa4a8;
+   margin: 20px 0;
+   padding: 30px;
+   position: relative;
+   overflow: hidden;
+   transition: 0.3s ease;
+}
+
+.faq.active {
+   background-color: #fff;
+   /* 0 horizontal offset 3px on the vertical,6px blur */
+   box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.1),
+   0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+   content: '\f075'; /* carattere unicode dell'icona comment 
+   trovata su fontawesome */
+   font-family: 'Font Awesome 5 Free';
+   color: #2ecc71;
+   font-size: 7rem;
+   position: absolute;
+   opacity: 0.2; /* much lighter */
+   top: 20px; /* sembra una sola ma sono due (before and after)
+   alla stessa posizione */
+   left: 20px;
+   z-index: 0; /* vogliamo essere sicuri che sia dietro tutto*/
+}
+
+.faq.active::before {
+   color: #3498db;
+   top: -10px; /* muove verso l'alto */
+   left: -30px;
+   transform: rotateY(180deg);
+}
+
+.faq-title {
+   margin: 0 35px 0 0;
+}
+
+.faq-tex {
+   display: none; /* non si vedono normalmente */
+   margin: 30px 0 0;
+}
+
+.faq.active .faq-tex {
+   display: block;
+}
+
+.faq-toggle {
+   background-color: transparent;
+   border: 0;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 16px;
+   padding: 0;
+   position: absolute;
+   top: 30px;
+   right: 30px;
+   height:  30px;
+   width: 30px;
+   border-radius: 50%;
+}
+
+.faq-toggle:focus {
+   outline: 0;
+}
+
+.faq-toggle .fa-times {
+   display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+   display: block;
+   color: #fff;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+   display: none;
+}
+
+.faq.active .faq-toggle {
+   background-color: #9fa4a8;
+}
